@@ -670,8 +670,15 @@ line-height: 24px;
 }
 /* for mobile */
 @media (max-width:576px){
-   html,body{ overflow:hidden;
-width:100%;}
+    html,
+    body {
+      overflow-x: hidden;
+      height: 100%;
+    }
+    
+    body {
+      position: relative;
+    }
     .main-nav{
         justify-content: space-between;  
         align-items: center;
