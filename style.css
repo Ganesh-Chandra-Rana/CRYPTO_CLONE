@@ -820,7 +820,7 @@ line-height: 24px;
         }
         .small-p-text2{
             position: absolute;
-            top: 46rem;
+            top: 50rem;
             left: 1rem;
         }
         .text-all p {
@@ -832,7 +832,7 @@ line-height: 24px;
             left: 6px;
             gap: 7px;
             align-items: start;
-            width: 50vw;
+            width: 60vw;
         }
         .bullet-text1 {
             position: absolute;
@@ -843,13 +843,13 @@ line-height: 24px;
         }
         .bullet-text2 {
             position: absolute;
-            top: 678px;
+            top: 688px;
             left: 10px;
             gap: 12px;
             align-items: start;
         }
         .bullet-text1,.bullet-text2{
-            width: 50vw;
+            width: 60vw;
         }
         .text-all{
             position: absolute;
