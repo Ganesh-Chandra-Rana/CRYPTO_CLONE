@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
 }
 :root{
     --primary-text-color:#183b56;
@@ -13,7 +14,8 @@
 }
 body{
     font-family: 'Poppins',sans-serif;
-color:var(--primary-text-color);    
+color:var(--primary-text-color); 
+overflow-x: hidden;   
 }
 h1{
     font-size:clamp(3rem,1rem+10vw,2rem) ;
@@ -172,6 +174,9 @@ padding:0px 20px;
 .feature-img{
     position: relative;
     margin-top: -87px;
+}
+.world-map{
+    max-width: 90vw;
 }
 
 .text1,.text2,.text3{
@@ -654,7 +659,7 @@ line-height: 24px;
     .feature-section{
     gap: 49px;
     margin-top: 94px;
-    
+    background-size: cover;
     flex-direction: column;
 
 }
@@ -746,13 +751,14 @@ line-height: 24px;
         .view-all-btn{
             position: absolute;
     /* top: 0; */
-    bottom: -197px;
+    bottom: -130px;
     left: 158px;
           }
           .feature-section {
             background-color: #00092A;
             padding: 22px 0px;
             margin-top: 30px;
+            background-size: cover;
         }
         
         .feature-img {
@@ -782,7 +788,7 @@ line-height: 24px;
             line-height: 38px;
             /* height: 108px; */
             /* width: 426px; */
-            left: 100px;
+            left: 33px;
             top: 34px;
             position: absolute;
         }
@@ -818,7 +824,7 @@ line-height: 24px;
             left: 1rem;
         }
         .text-all p {
-            width: 91vw;
+            width: 100vw;
         }
         .bullet-text {
             position: absolute;
@@ -826,7 +832,7 @@ line-height: 24px;
             left: 6px;
             gap: 7px;
             align-items: start;
-            width: 43vw;
+            width: 50vw;
         }
         .bullet-text1 {
             position: absolute;
@@ -843,7 +849,7 @@ line-height: 24px;
             align-items: start;
         }
         .bullet-text1,.bullet-text2{
-            width: 45vw;
+            width: 50vw;
         }
         .text-all{
             position: absolute;
